@@ -40,6 +40,15 @@
         {
             "type": "in-person",
             "month": "MAY",
+            "day": "6",
+            "title": "Microsoft Agentic AI Hackathon",
+            "time": "9:00 AM - 1:00 PM GMT",
+            "description": "Focused on Agentic AI for factory operations and predictive maintenance",
+            "link": "https://msevents.microsoft.com/event?id=3942820705"
+        },
+        {
+            "type": "in-person",
+            "month": "MAY",
             "day": "11",
             "title": "GitHub Copilot Dev Days | London, UK",
             "time": "9:00 AM - 1:00 PM GMT",
