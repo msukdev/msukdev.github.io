@@ -241,6 +241,7 @@ footer {
     display: flex;
     overflow: hidden;
     transition: border-color 0.2s ease;
+    margin-bottom: 16px;
 }
 
 .event-card:hover {

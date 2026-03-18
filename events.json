@@ -1,0 +1,68 @@
+{
+    "$schema": "./events.schema.json",
+    "events": [
+        {
+            "type": "in-person",
+            "month": "APR",
+            "day": "7",
+            "title": "GitHub Social Club | London",
+            "time": "10:00 AM - 6:00 PM GMT",
+            "description": "hangout for devs, builders, and tech enthusiasts",
+            "link": "https://luma.com/githubsocialclub-london"
+        },
+        {
+            "type": "in-person",
+            "month": "APR",
+            "day": "22",
+            "title": "AgentCon - London",
+            "time": "9:00 AM - 5:00 PM GMT",
+            "description": "AI Agents World Tour",
+            "link": "https://globalai.community/chapters/london/events/agentcon-london/"
+        },
+        {
+            "type": "in-person",
+            "month": "APR",
+            "day": "24",
+            "title": "GitHub Copilot Dev Days | Manchester, UK",
+            "time": "9:00 AM - 1:00 PM GMT",
+            "description": "Community-led developer event",
+            "link": "https://luma.com/hg4e77e8"
+        },
+        {
+            "type": "in-person",
+            "month": "APR",
+            "day": "29",
+            "title": "GitHub Copilot Dev Days | Edinburgh, UK",
+            "time": "9:00 AM - 1:00 PM GMT",
+            "description": "Community-led developer event",
+            "link": "https://luma.com/b0aukohl"
+        },
+        {
+            "type": "in-person",
+            "month": "MAY",
+            "day": "11",
+            "title": "GitHub Copilot Dev Days | London, UK",
+            "time": "9:00 AM - 1:00 PM GMT",
+            "description": "Community-led developer event",
+            "link": "https://luma.com/8hy1aibw"
+        },
+        {
+            "type": "in-person",
+            "month": "MAY",
+            "day": "12",
+            "title": "Microsoft AI Agent Open Hack",
+            "time": "9:30 am - 4:30 pm GMT",
+            "description": "Explore Microsoft Foundry",
+            "link": "https://msevents.microsoft.com/event?id=2711332849"
+        },
+        {
+            "type": "virtual",
+            "month": "MAR",
+            "day": "25<br />26",
+            "title": "DevX EMEA",
+            "time": "10:00 AM - 4:00 PM GMT",
+            "description": "Two-day digital summit for developers.",
+            "link": "https://msevents.microsoft.com/event?id=4197418354"
+        }
+    ]
+}
