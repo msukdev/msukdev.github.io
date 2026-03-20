@@ -16,8 +16,8 @@ body {
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, #238636 0%, #2ea043 50%, #3fb950 100%);
-    padding: 80px 20px;
-    text-align: center;
+    padding: 80px 40px;
+    text-align: left;
     position: relative;
     overflow: hidden;
 }
@@ -36,8 +36,6 @@ body {
 .hero-content {
     position: relative;
     z-index: 1;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 .hero h1 {
@@ -56,9 +54,8 @@ body {
 
 /* Main Content */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px 20px;
+    width: 100%;
+    padding: 40px 40px;
     flex: 1;
 }
 
@@ -73,8 +70,15 @@ body {
 /* Links Grid */
 .links-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr;
     gap: 20px;
+}
+
+@media (min-width: 769px) {
+    .links-grid {
+        grid-template-columns: repeat(auto-fill, 300px);
+        justify-content: start;
+    }
 }
 
 .link-card {
@@ -124,9 +128,18 @@ body {
 }
 
 .series-grid {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 12px;
+}
+
+@media (min-width: 769px) {
+    .series-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 420px);
+        gap: 16px;
+        justify-content: start;
+    }
 }
 
 .series-card {
@@ -138,6 +151,7 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
+    width: 100%;
 }
 
 
@@ -167,13 +181,29 @@ body {
 footer {
     background: #161b22;
     border-top: 1px solid #30363d;
-    padding: 24px 20px;
-    text-align: center;
+    padding: 24px 40px;
+    text-align: left;
     color: #8b949e;
     font-size: 0.875rem;
 }
 
 /* Responsive */
+@media (min-width: 769px) {
+    #in-person-events,
+    #virtual-events {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 420px);
+        gap: 16px;
+        justify-content: start;
+    }
+    
+    .event-card {
+        margin-bottom: 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+
 @media (max-width: 768px) {
     .hero {
         padding: 60px 20px;
@@ -201,7 +231,7 @@ footer {
 
 /* Hero Small (subpages) */
 .hero-small {
-    padding: 40px 20px;
+    padding: 40px 40px;
 }
 
 .hero-small h1 {
@@ -211,9 +241,7 @@ footer {
 
 /* Breadcrumb */
 .breadcrumb {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 16px 20px;
+    padding: 16px 40px;
     font-size: 0.875rem;
     color: #8b949e;
 }
@@ -260,7 +288,7 @@ footer {
 }
 
 .event-date .month {
-    font-size: 0.75rem;
+    font-size: 1.0rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
