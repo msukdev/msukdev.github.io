@@ -190,7 +190,8 @@ footer {
 /* Responsive */
 @media (min-width: 769px) {
     #in-person-events,
-    #virtual-events {
+    #virtual-events,
+    #partner-events {
         display: grid;
         grid-template-columns: repeat(auto-fill, 420px);
         gap: 16px;

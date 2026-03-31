@@ -5,7 +5,8 @@
             "type": "in-person",
             "month": "APR",
             "day": "7",
-            "title": "GitHub Social Club | London",
+            "title": "GitHub Social Club",
+            "location": "London",
             "time": "10:00 AM - 6:00 PM GMT",
             "description": "hangout for devs, builders, and tech enthusiasts",
             "link": "https://luma.com/githubsocialclub-london"
@@ -15,6 +16,7 @@
             "month": "APR",
             "day": "22",
             "title": "AgentCon - London",
+            "location": "London",
             "time": "9:00 AM - 5:00 PM GMT",
             "description": "AI Agents World Tour",
             "link": "https://globalai.community/chapters/london/events/agentcon-london/"
@@ -23,7 +25,8 @@
             "type": "in-person",
             "month": "APR",
             "day": "24",
-            "title": "GitHub Copilot Dev Days | Manchester, UK",
+            "title": "GitHub Copilot Dev Days",
+            "location": "Manchester",
             "time": "9:00 AM - 1:00 PM GMT",
             "description": "Community-led developer event",
             "link": "https://luma.com/hg4e77e8"
@@ -32,7 +35,8 @@
             "type": "in-person",
             "month": "APR",
             "day": "29",
-            "title": "GitHub Copilot Dev Days | Edinburgh, UK",
+            "title": "GitHub Copilot Dev Days",
+            "location": "Edinburgh",
             "time": "9:00 AM - 1:00 PM GMT",
             "description": "Community-led developer event",
             "link": "https://luma.com/b0aukohl"
@@ -42,6 +46,7 @@
             "month": "MAY",
             "day": "6",
             "title": "Microsoft Agentic AI Hackathon",
+            "location": "London",
             "time": "9:00 AM - 1:00 PM GMT",
             "description": "Focused on Agentic AI for factory operations and predictive maintenance",
             "link": "https://msevents.microsoft.com/event?id=3942820705"
@@ -50,7 +55,8 @@
             "type": "in-person",
             "month": "MAY",
             "day": "11",
-            "title": "GitHub Copilot Dev Days | London, UK",
+            "title": "GitHub Copilot Dev Days",
+            "location": "London",
             "time": "5:30 PM - 8:30 PM GMT",
             "description": "Community-led developer event",
             "link": "https://luma.com/8hy1aibw"
@@ -60,18 +66,30 @@
             "month": "MAY",
             "day": "12",
             "title": "Microsoft AI Agent Open Hack",
-            "time": "9:30 am - 4:30 pm GMT",
+            "location": "London",
+            "time": "9:30 AM - 4:30 PM GMT",
             "description": "Explore Microsoft Foundry",
             "link": "https://msevents.microsoft.com/event?id=2711332849"
         },
         {
-            "type": "virtual",
-            "month": "MAR",
-            "day": "25<br />26",
-            "title": "DevX EMEA",
-            "time": "10:00 AM - 4:00 PM GMT",
-            "description": "Two-day digital summit for developers.",
-            "link": "https://msevents.microsoft.com/event?id=4197418354"
+            "type": "partner",
+            "month": "APR",
+            "day": "29",
+            "title": "Agentic Engineering on GitHub",
+            "location": "London",
+            "time": "2:00 PM - 3:30 PM GMT",
+            "description": "Avanade event",
+            "link": "https://github.registration.goldcast.io/events/69873ef8-4366-4886-9f3f-1166240ebe04"
+        },
+        {
+            "type": "partner",
+            "month": "MAY",
+            "day": "28",
+            "title": "Agentic Engineering on GitHub",
+            "location": "London",
+            "time": "2:00 PM - 3:30 PM GMT",
+            "description": "Avanade event",
+            "link": "https://github.registration.goldcast.io/events/ffd641d2-5b80-459f-aa9d-2df1f1b74f55"
         }
     ]
 }

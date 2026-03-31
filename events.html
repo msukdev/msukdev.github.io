@@ -29,6 +29,7 @@
             <a
               href="https://aka.ms/GHCPAdoptionUK"
               target="_blank"
+              rel="noopener noreferrer"
               class="event-link"
               >More Info</a
             >
@@ -43,6 +44,7 @@
             <a
               href="https://aka.ms/AgenticDevOpsLive"
               target="_blank"
+              rel="noopener noreferrer"
               class="event-link"
               >More Info</a
             >
@@ -54,8 +56,11 @@
         <h2>In-person events</h2>
         <div id="in-person-events"></div>
         <br />
-        <h2>Virtual events</h2>
+        <!-- <h2>Virtual events</h2>
         <div id="virtual-events"></div>
+        <br /> -->
+        <h2>Partner events</h2>
+        <div id="partner-events"></div>
       </section>
     </main>
 
@@ -84,6 +89,15 @@
           virtualEvents.forEach((event) => {
             virtualContainer.appendChild(createEventCard(event));
           });
+
+          // Filter and render partner events
+          const partnerContainer = document.getElementById("partner-events");
+          const partnerEvents = data.events.filter(
+            (event) => event.type === "partner",
+          );
+          partnerEvents.forEach((event) => {
+            partnerContainer.appendChild(createEventCard(event));
+          });
         } catch (error) {
           console.error("Error loading events:", error);
         }
@@ -102,6 +116,7 @@
           <div class="event-details">
             <h3>${event.title}</h3>
             <p class="event-time">🕐 ${event.time}</p>
+            ${event.location ? `<p class="event-location">📍 ${event.location}</p>` : ""}
             <p class="event-desc">${event.description}</p>
             <a href="${event.link}" target="_blank" class="event-link">More Info</a>
           </div>

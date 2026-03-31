@@ -4,7 +4,9 @@
   "title": "Events Configuration",
   "description": "Schema for events displayed on the UK Developer Solutions Engineering events page",
   "type": "object",
-  "required": ["events"],
+  "required": [
+    "events"
+  ],
   "properties": {
     "$schema": {
       "type": "string",
@@ -15,23 +17,52 @@
       "description": "Array of event objects",
       "items": {
         "type": "object",
-        "required": ["type", "month", "day", "title", "time", "description", "link"],
+        "required": [
+          "type",
+          "month",
+          "day",
+          "title",
+          "time",
+          "description",
+          "link"
+        ],
         "properties": {
           "type": {
             "type": "string",
-            "description": "Event type: in-person or virtual",
-            "enum": ["in-person", "virtual"]
+            "description": "Event type: in-person, virtual, or partner",
+            "enum": [
+              "in-person",
+              "virtual",
+              "partner"
+            ]
           },
           "month": {
             "type": "string",
             "description": "Three-letter month abbreviation (uppercase)",
             "pattern": "^(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)$",
-            "examples": ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
+            "examples": [
+              "JAN",
+              "FEB",
+              "MAR",
+              "APR",
+              "MAY",
+              "JUN",
+              "JUL",
+              "AUG",
+              "SEP",
+              "OCT",
+              "NOV",
+              "DEC"
+            ]
           },
           "day": {
             "type": "string",
             "description": "Day of month (1-31) or multi-day format like '25<br />26' for consecutive days",
-            "examples": ["1", "15", "25<br />26"]
+            "examples": [
+              "1",
+              "15",
+              "25<br />26"
+            ]
           },
           "title": {
             "type": "string",
@@ -53,6 +84,11 @@
             "description": "URL to event details or registration page",
             "format": "uri",
             "pattern": "^https?://"
+          },
+          "location": {
+            "type": "string",
+            "description": "Physical or virtual location of the event",
+            "minLength": 1
           }
         },
         "additionalProperties": false
