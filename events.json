@@ -54,6 +54,16 @@
         {
             "type": "in-person",
             "month": "MAY",
+            "day": "8",
+            "title": "GitHub Copilot Dev Days",
+            "location": "Reading",
+            "time": "9:00 AM - 1:00 PM GMT",
+            "description": "Community-led developer event",
+            "link": "https://luma.com/669ri13w"
+        },
+        {
+            "type": "in-person",
+            "month": "MAY",
             "day": "11",
             "title": "GitHub Copilot Dev Days",
             "location": "London",
