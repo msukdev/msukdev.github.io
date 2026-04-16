@@ -191,6 +191,7 @@ footer {
 @media (min-width: 769px) {
     #in-person-events,
     #virtual-events,
+    #conference-events,
     #partner-events {
         display: grid;
         grid-template-columns: repeat(auto-fill, 420px);

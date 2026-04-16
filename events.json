@@ -2,14 +2,14 @@
     "$schema": "./events.schema.json",
     "events": [
         {
-            "type": "in-person",
-            "month": "APR",
-            "day": "7",
-            "title": "GitHub Social Club",
-            "location": "London",
-            "time": "10:00 AM - 6:00 PM GMT",
-            "description": "hangout for devs, builders, and tech enthusiasts",
-            "link": "https://luma.com/githubsocialclub-london"
+            "type": "conference",
+            "month": "JUN",
+            "day": "2-3",
+            "title": "Microsoft Build 2026",
+            "location": "San Francisco & Online",
+            "time": "early til late",
+            "description": "Developer conference",
+            "link": "https://build.microsoft.com/"
         },
         {
             "type": "in-person",
@@ -78,7 +78,7 @@
             "title": "Microsoft AI Agent Open Hack",
             "location": "London",
             "time": "9:30 AM - 4:30 PM GMT",
-            "description": "Explore Microsoft Foundry",
+            "description": "Explore Microsoft Foundry and GH Copilot",
             "link": "https://msevents.microsoft.com/event?id=2711332849"
         },
         {

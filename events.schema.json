@@ -32,6 +32,7 @@
             "description": "Event type: in-person, virtual, or partner",
             "enum": [
               "in-person",
+              "conference",
               "virtual",
               "partner"
             ]

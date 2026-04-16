@@ -38,7 +38,7 @@
           </div>
 
           <div class="series-card">
-            <div class="series-icon">🚀</div>
+            <div class="series-icon">✨</div>
             <div class="series-info">
               <h3>Microsoft Reactor Series</h3>
               <p>Agentic DevOps Live</p>
@@ -58,6 +58,9 @@
         <h2>In-person events</h2>
         <div id="in-person-events"></div>
         <br />
+        <h2>Conferences</h2>
+        <div id="conference-events"></div>
+        <br />
         <!-- <h2>Virtual events</h2>
         <div id="virtual-events"></div>
         <br /> -->
@@ -73,10 +76,8 @@
           const response = await fetch("events.json");
           const data = await response.json();
 
-          const inPersonContainer = document.getElementById("in-person-events");
-          const virtualContainer = document.getElementById("virtual-events");
-
           // Filter and render in-person events
+          const inPersonContainer = document.getElementById("in-person-events");
           const inPersonEvents = data.events.filter(
             (event) => event.type === "in-person",
           );
@@ -84,7 +85,18 @@
             inPersonContainer.appendChild(createEventCard(event));
           });
 
+          // Filter and render conference events
+          const conferenceContainer =
+            document.getElementById("conference-events");
+          const conferenceEvents = data.events.filter(
+            (event) => event.type === "conference",
+          );
+          conferenceEvents.forEach((event) => {
+            conferenceContainer.appendChild(createEventCard(event));
+          });
+
           // Filter and render virtual events
+          const virtualContainer = document.getElementById("virtual-events");
           const virtualEvents = data.events.filter(
             (event) => event.type === "virtual",
           );
