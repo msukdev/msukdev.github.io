@@ -2,6 +2,16 @@
     "$schema": "./events.schema.json",
     "events": [
         {
+            "type": "virtual",
+            "month": "MAY",
+            "day": "6",
+            "title": "GitHub Copilot usage-based billing",
+            "location": "Online",
+            "time": "3:00 PM — 4:00 PM BST",
+            "description": "Budget control for usage-based billing",
+            "link": "https://github.registration.goldcast.io/webinar/34e2b4f5-74e8-4f0b-9a3c-a7a438eb2696"
+        },
+        {
             "type": "conference",
             "month": "JUN",
             "day": "2-3",
@@ -10,26 +20,6 @@
             "time": "early til late",
             "description": "Developer conference",
             "link": "https://build.microsoft.com/"
-        },
-        {
-            "type": "in-person",
-            "month": "APR",
-            "day": "22",
-            "title": "AgentCon - London",
-            "location": "London",
-            "time": "9:00 AM - 5:00 PM GMT",
-            "description": "AI Agents World Tour",
-            "link": "https://globalai.community/chapters/london/events/agentcon-london/"
-        },
-        {
-            "type": "in-person",
-            "month": "APR",
-            "day": "24",
-            "title": "GitHub Copilot Dev Days",
-            "location": "Manchester",
-            "time": "9:00 AM - 1:00 PM GMT",
-            "description": "Community-led developer event",
-            "link": "https://luma.com/hg4e77e8"
         },
         {
             "type": "in-person",
