@@ -23,16 +23,6 @@
         },
         {
             "type": "in-person",
-            "month": "APR",
-            "day": "29",
-            "title": "GitHub Copilot Dev Days",
-            "location": "Edinburgh",
-            "time": "9:00 AM - 1:00 PM GMT",
-            "description": "Community-led developer event",
-            "link": "https://luma.com/b0aukohl"
-        },
-        {
-            "type": "in-person",
             "month": "MAY",
             "day": "6",
             "title": "Microsoft Agentic AI Hackathon",
@@ -70,16 +60,6 @@
             "time": "9:30 AM - 4:30 PM GMT",
             "description": "Explore Microsoft Foundry and GH Copilot",
             "link": "https://msevents.microsoft.com/event?id=2711332849"
-        },
-        {
-            "type": "partner",
-            "month": "APR",
-            "day": "29",
-            "title": "Agentic Engineering on GitHub",
-            "location": "London",
-            "time": "2:00 PM - 3:30 PM GMT",
-            "description": "Avanade event",
-            "link": "https://github.registration.goldcast.io/events/69873ef8-4366-4886-9f3f-1166240ebe04"
         },
         {
             "type": "partner",
