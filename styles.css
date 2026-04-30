@@ -152,6 +152,11 @@ body {
     align-items: center;
     gap: 16px;
     width: 100%;
+    transition: border-color 0.2s ease;
+}
+
+.series-card:hover {
+    border-color: #3fb950;
 }
 
 
