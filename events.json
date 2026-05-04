@@ -62,6 +62,16 @@
             "link": "https://msevents.microsoft.com/event?id=2711332849"
         },
         {
+            "type": "in-person",
+            "month": "MAY",
+            "day": "20",
+            "title": "GitHub Copilot Dev Days",
+            "location": "Birmingham",
+            "time": "5:30 PM - 9:00 PM GMT",
+            "description": "Community-led developer event",
+            "link": "https://luma.com/9qq10yji?tk"
+        },
+        {
             "type": "partner",
             "month": "MAY",
             "day": "28",
