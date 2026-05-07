@@ -2,14 +2,24 @@
     "$schema": "./events.schema.json",
     "events": [
         {
+            "type": "ukdevse",
+            "month": "MAY",
+            "day": "12",
+            "title": "GitHub Copilot Usage-Based Billing",
+            "location": "Online",
+            "time": "1:00 PM - 1:45 PM BST",
+            "description": "UBB - the what / why and controlling costs. ",
+            "link": "https://msit.events.teams.microsoft.com/event/msit.2e708a30-c40e-44e4-82f2-81eedb760596@72f988bf-86f1-41af-91ab-2d7cd011db47"
+        },
+        {
             "type": "virtual",
             "month": "MAY",
-            "day": "6",
-            "title": "GitHub Copilot usage-based billing",
+            "day": "13",
+            "title": "GitHub Copilot Usage-Based Billing",
             "location": "Online",
             "time": "3:00 PM — 4:00 PM BST",
             "description": "Budget control for usage-based billing",
-            "link": "https://github.registration.goldcast.io/webinar/34e2b4f5-74e8-4f0b-9a3c-a7a438eb2696"
+            "link": "https://gh.io/usagebasedbudgetswebinar"
         },
         {
             "type": "conference",
@@ -24,20 +34,10 @@
         {
             "type": "in-person",
             "month": "MAY",
-            "day": "6",
-            "title": "Microsoft Agentic AI Hackathon",
-            "location": "London",
-            "time": "9:00 AM - 1:00 PM GMT",
-            "description": "Focused on Agentic AI for factory operations and predictive maintenance",
-            "link": "https://msevents.microsoft.com/event?id=3942820705"
-        },
-        {
-            "type": "in-person",
-            "month": "MAY",
             "day": "8",
             "title": "GitHub Copilot Dev Days",
             "location": "Reading",
-            "time": "9:00 AM - 1:00 PM GMT",
+            "time": "9:00 AM - 1:00 PM BST",
             "description": "Community-led developer event",
             "link": "https://luma.com/669ri13w"
         },
@@ -47,7 +47,7 @@
             "day": "11",
             "title": "GitHub Copilot Dev Days",
             "location": "London",
-            "time": "5:30 PM - 8:30 PM GMT",
+            "time": "5:30 PM - 8:30 PM BST",
             "description": "Community-led developer event",
             "link": "https://luma.com/8hy1aibw"
         },
@@ -57,7 +57,7 @@
             "day": "12",
             "title": "Microsoft AI Agent Open Hack",
             "location": "London",
-            "time": "9:30 AM - 4:30 PM GMT",
+            "time": "9:30 AM - 4:30 PM BST",
             "description": "Explore Microsoft Foundry and GH Copilot",
             "link": "https://msevents.microsoft.com/event?id=2711332849"
         },
@@ -67,7 +67,7 @@
             "day": "20",
             "title": "GitHub Copilot Dev Days",
             "location": "Birmingham",
-            "time": "5:30 PM - 9:00 PM GMT",
+            "time": "5:30 PM - 9:00 PM BST",
             "description": "Community-led developer event",
             "link": "https://luma.com/9qq10yji?tk"
         },
@@ -77,7 +77,7 @@
             "day": "28",
             "title": "Agentic Engineering on GitHub",
             "location": "London",
-            "time": "2:00 PM - 3:30 PM GMT",
+            "time": "2:00 PM - 3:30 PM BST",
             "description": "Avanade event",
             "link": "https://github.registration.goldcast.io/events/ffd641d2-5b80-459f-aa9d-2df1f1b74f55"
         }

@@ -27,9 +27,6 @@
             <div class="series-info">
               <h3>UK DevSE Series</h3>
               <p>Tuesday lunch-byte sessions</p>
-              <p style="color: lightgray">
-                Next session:<br />12 May - Usage-based billing
-              </p>
             </div>
             <a
               href="https://wonderful-water-0902a6703.1.azurestaticapps.net/"
@@ -43,6 +40,9 @@
       </section>
 
       <section class="events-list">
+        <h2>UK DevSE events</h2>
+        <div id="ukdevse-events"></div>
+        <br />
         <h2>In-person events</h2>
         <div id="in-person-events"></div>
         <br />
@@ -63,6 +63,15 @@
         try {
           const response = await fetch("events.json");
           const data = await response.json();
+
+          // filter and render UK DevSE events
+          const ukDevSEContainer = document.getElementById("ukdevse-events");
+          const ukDevSEEvents = data.events.filter(
+            (event) => event.type === "ukdevse",
+          );
+          ukDevSEEvents.forEach((event) => {
+            ukDevSEContainer.appendChild(createEventCard(event));
+          });
 
           // Filter and render in-person events
           const inPersonContainer = document.getElementById("in-person-events");

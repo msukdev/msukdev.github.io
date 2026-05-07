@@ -196,6 +196,7 @@ footer {
 @media (min-width: 769px) {
     #in-person-events,
     #virtual-events,
+    #ukdevse-events,
     #conference-events,
     #partner-events {
         display: grid;
