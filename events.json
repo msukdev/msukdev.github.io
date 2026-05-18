@@ -2,24 +2,14 @@
     "$schema": "./events.schema.json",
     "events": [
         {
-            "type": "ukdevse",
-            "month": "MAY",
-            "day": "12",
-            "title": "GitHub Copilot Usage-Based Billing",
-            "location": "Online",
-            "time": "1:00 PM - 1:45 PM BST",
-            "description": "What / why and controlling costs. ",
-            "link": "https://msit.events.teams.microsoft.com/event/msit.2e708a30-c40e-44e4-82f2-81eedb760596@72f988bf-86f1-41af-91ab-2d7cd011db47"
-        },
-        {
             "type": "virtual",
             "month": "MAY",
-            "day": "13",
-            "title": "GitHub Copilot Usage-Based Billing",
+            "day": "21",
+            "title": "Agent Quality & Token Optimization",
             "location": "Online",
             "time": "3:00 PM — 4:00 PM BST",
-            "description": "Budget control for usage-based billing",
-            "link": "https://gh.io/usagebasedbudgetswebinar"
+            "description": "Optimize token usage and reduce your spend",
+            "link": "https://github.registration.goldcast.io/webinar/06123d21-1ed9-4fac-b319-2e9a36b33bbd"
         },
         {
             "type": "conference",
@@ -30,36 +20,6 @@
             "time": "early til late",
             "description": "Developer conference",
             "link": "https://build.microsoft.com/"
-        },
-        {
-            "type": "in-person",
-            "month": "MAY",
-            "day": "8",
-            "title": "GitHub Copilot Dev Days",
-            "location": "Reading",
-            "time": "9:00 AM - 1:00 PM BST",
-            "description": "Community-led developer event",
-            "link": "https://luma.com/669ri13w"
-        },
-        {
-            "type": "in-person",
-            "month": "MAY",
-            "day": "11",
-            "title": "GitHub Copilot Dev Days",
-            "location": "London",
-            "time": "5:30 PM - 8:30 PM BST",
-            "description": "Community-led developer event",
-            "link": "https://luma.com/8hy1aibw"
-        },
-        {
-            "type": "in-person",
-            "month": "MAY",
-            "day": "12",
-            "title": "Microsoft AI Agent Open Hack",
-            "location": "London",
-            "time": "9:30 AM - 4:30 PM BST",
-            "description": "Explore Microsoft Foundry and GH Copilot",
-            "link": "https://msevents.microsoft.com/event?id=2711332849"
         },
         {
             "type": "in-person",
