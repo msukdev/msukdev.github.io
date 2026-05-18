@@ -12,6 +12,26 @@
             "link": "https://github.registration.goldcast.io/webinar/06123d21-1ed9-4fac-b319-2e9a36b33bbd"
         },
         {
+            "type": "virtual",
+            "month": "JUN",
+            "day": "4",
+            "title": "GitHub Copilot Hands-on Lab",
+            "location": "Online",
+            "time": "9:00 AM — 2:00 PM BST",
+            "description": "Give developers practical experience using GitHub Copilot ",
+            "link": "https://msevents.microsoft.com/event?id=2094632376"
+        },
+        {
+            "type": "virtual",
+            "month": "JUN",
+            "day": "11",
+            "title": "GitHub Copilot Hands-on Lab",
+            "location": "Online",
+            "time": "9:00 AM — 2:00 PM BST",
+            "description": "Give developers practical experience using GitHub Copilot ",
+            "link": "https://msevents.microsoft.com/event?id=3683786152"
+        },
+        {
             "type": "conference",
             "month": "JUN",
             "day": "2-3",
