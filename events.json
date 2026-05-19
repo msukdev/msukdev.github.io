@@ -60,6 +60,16 @@
             "time": "2:00 PM - 3:30 PM BST",
             "description": "Avanade event",
             "link": "https://github.registration.goldcast.io/events/ffd641d2-5b80-459f-aa9d-2df1f1b74f55"
+        },
+        {
+            "type": "partner",
+            "month": "JUL",
+            "day": "2",
+            "title": "GitHub + Microsoft Meetup",
+            "location": "London",
+            "time": "6:00 PM - 9:00 PM BST",
+            "description": "EPAM event",
+            "link": "https://events.bizzabo.com/859206"
         }
     ]
 }
