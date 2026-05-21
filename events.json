@@ -43,13 +43,13 @@
         },
         {
             "type": "in-person",
-            "month": "MAY",
-            "day": "20",
-            "title": "GitHub Copilot Dev Days",
-            "location": "Birmingham",
-            "time": "5:30 PM - 9:00 PM BST",
-            "description": "Community-led developer event",
-            "link": "https://luma.com/9qq10yji?tk"
+            "month": "JUN",
+            "day": "1-2",
+            "title": "DevX Connect India",
+            "location": "Bengaluru",
+            "time": "8:00 AM - 5:00 PM local time",
+            "description": "Conference for developers working for European companies",
+            "link": "https://msevents.microsoft.com/event?id=4031772563"
         },
         {
             "type": "partner",
