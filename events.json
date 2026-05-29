@@ -3,16 +3,6 @@
     "events": [
         {
             "type": "virtual",
-            "month": "MAY",
-            "day": "21",
-            "title": "Agent Quality & Token Optimization",
-            "location": "Online",
-            "time": "3:00 PM — 4:00 PM BST",
-            "description": "Optimize token usage and reduce your spend",
-            "link": "https://github.registration.goldcast.io/webinar/06123d21-1ed9-4fac-b319-2e9a36b33bbd"
-        },
-        {
-            "type": "virtual",
             "month": "JUN",
             "day": "4",
             "title": "GitHub Copilot Hands-on Lab",
@@ -30,6 +20,16 @@
             "time": "9:00 AM — 2:00 PM BST",
             "description": "Give developers practical experience using GitHub Copilot ",
             "link": "https://msevents.microsoft.com/event?id=3683786152"
+        },
+        {
+            "type": "virtual",
+            "month": "JUN",
+            "day": "15",
+            "title": "GitHub Copilot Hands-on Lab",
+            "location": "Online",
+            "time": "9:00 AM — 2:00 PM BST",
+            "description": "Give developers practical experience using GitHub Copilot ",
+            "link": "https://msevents.microsoft.com/event?id=174039640"
         },
         {
             "type": "conference",
@@ -50,16 +50,6 @@
             "time": "8:00 AM - 5:00 PM local time",
             "description": "Conference for developers working for European companies",
             "link": "https://msevents.microsoft.com/event?id=4031772563"
-        },
-        {
-            "type": "partner",
-            "month": "MAY",
-            "day": "28",
-            "title": "Agentic Engineering on GitHub",
-            "location": "London",
-            "time": "2:00 PM - 3:30 PM BST",
-            "description": "Avanade event",
-            "link": "https://github.registration.goldcast.io/events/ffd641d2-5b80-459f-aa9d-2df1f1b74f55"
         },
         {
             "type": "partner",
