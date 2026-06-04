@@ -4,16 +4,6 @@
         {
             "type": "virtual",
             "month": "JUN",
-            "day": "4",
-            "title": "GitHub Copilot Hands-on Lab",
-            "location": "Online",
-            "time": "9:00 AM — 2:00 PM BST",
-            "description": "Give developers practical experience using GitHub Copilot ",
-            "link": "https://msevents.microsoft.com/event?id=2094632376"
-        },
-        {
-            "type": "virtual",
-            "month": "JUN",
             "day": "11",
             "title": "GitHub Copilot Hands-on Lab",
             "location": "Online",
@@ -30,6 +20,16 @@
             "time": "9:00 AM — 2:00 PM BST",
             "description": "Give developers practical experience using GitHub Copilot ",
             "link": "https://msevents.microsoft.com/event?id=174039640"
+        },
+        {
+            "type": "virtual",
+            "month": "JUN",
+            "day": "16",
+            "title": "From Azure DevOps to GitHub",
+            "location": "Online",
+            "time": "3:00 PM — 4:00 PM BST",
+            "description": "Future of software development on GitHub",
+            "link": "https://github.registration.goldcast.io/webinar/bfef63e8-e9a9-4d8d-ab60-1167ae452d90"
         },
         {
             "type": "conference",
