@@ -2,34 +2,34 @@
     "$schema": "./events.schema.json",
     "events": [
         {
-            "type": "virtual",
-            "month": "JUN",
+            "type": "in-person",
+            "month": "OCT",
             "day": "16",
-            "title": "From Azure DevOps to GitHub",
-            "location": "Online",
-            "time": "3:00 PM — 4:00 PM BST",
-            "description": "Future of software development on GitHub",
-            "link": "https://github.registration.goldcast.io/webinar/bfef63e8-e9a9-4d8d-ab60-1167ae452d90"
+            "title": "Dev Days",
+            "location": "London",
+            "time": "4:00 PM — 7:00 PM UK",
+            "description": "GitHub community event",
+            "link": "https://luma.com/dev-days/map"
         },
         {
             "type": "virtual",
-            "month": "JUN",
+            "month": "SEP",
+            "day": "8",
+            "title": "GitHub Copilot Hands-on Lab",
+            "location": "Online",
+            "time": "9:00 AM — 1:00 PM UK",
+            "description": "Give developers practical experience using GitHub Copilot ",
+            "link": "https://msevents.microsoft.com/event?id=1474241179"
+        },
+        {
+            "type": "virtual",
+            "month": "SEP",
             "day": "22",
             "title": "GitHub Copilot Hands-on Lab",
             "location": "Online",
-            "time": "9:00 AM — 2:00 PM BST",
+            "time": "9:00 AM — 1:00 PM UK",
             "description": "Give developers practical experience using GitHub Copilot ",
-            "link": "https://msevents.microsoft.com/event?id=358204658"
-        },
-        {
-            "type": "virtual",
-            "month": "JUN",
-            "day": "25",
-            "title": "GitHub Copilot Hands-on Lab",
-            "location": "Online",
-            "time": "9:00 AM — 2:00 PM BST",
-            "description": "Give developers practical experience using GitHub Copilot ",
-            "link": "https://msevents.microsoft.com/event?id=1141041135"
+            "link": "https://msevents.microsoft.com/event?id=2102652779"
         },
         {
             "type": "conference",
