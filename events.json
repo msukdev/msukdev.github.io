@@ -13,6 +13,16 @@
         },
         {
             "type": "in-person",
+            "month": "OCT",
+            "day": "27",
+            "title": "Microsoft Hackathon - Agentic SDLC",
+            "location": "London",
+            "time": "9:00 AM — 4:30 PM UK",
+            "description": "Applying agentic AI across the software development lifecycle",
+            "link": "https://msevents.microsoft.com/event?id=2284730737"
+        },
+        {
+            "type": "in-person",
             "month": "DEC",
             "day": "8",
             "title": "GitHub Universe on the Road",
