@@ -4,22 +4,32 @@
         {
             "type": "in-person",
             "month": "OCT",
-            "day": "16",
-            "title": "Dev Days",
-            "location": "London",
-            "time": "4:00 PM — 7:00 PM UK",
-            "description": "GitHub community event",
-            "link": "https://luma.com/dev-days/map"
-        },
-        {
-            "type": "in-person",
-            "month": "OCT",
             "day": "27",
             "title": "Microsoft Hackathon - Agentic SDLC",
             "location": "London",
             "time": "9:00 AM — 4:30 PM UK",
             "description": "Applying agentic AI across the software development lifecycle",
             "link": "https://msevents.microsoft.com/event?id=2284730737"
+        },
+        {
+            "type": "in-person",
+            "month": "NOV",
+            "day": "3",
+            "title": "Hypervelocity Engineering & FinOps",
+            "location": "London",
+            "time": "9:00 AM — 3:00 PM UK",
+            "description": " ",
+            "link": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-BtWKr2-0NKnpo3Z-8obiJUNkVDWkhSRVpFUThPVEhXSUhMUDdGWk9OUS4u"
+        },
+        {
+            "type": "in-person",
+            "month": "NOV",
+            "day": "8",
+            "title": "Frontier Financial Services",
+            "location": "London",
+            "time": "9:00 AM — 3:00 PM UK",
+            "description": "For financial-services business and technology leaders",
+            "link": "https://msevents.microsoft.com/event?id=522781402"
         },
         {
             "type": "in-person",
