@@ -5,7 +5,7 @@
             "type": "in-person",
             "month": "OCT",
             "day": "27",
-            "title": "Microsoft Hackathon - Agentic SDLC",
+            "title": "Hackathon - Agentic SDLC",
             "location": "London",
             "time": "9:00 AM — 4:30 PM UK",
             "description": "Applying agentic AI across the software development lifecycle",
@@ -50,6 +50,42 @@
             "time": "early til late",
             "description": "Developer conference",
             "link": "https://githubuniverse.com/"
+        },
+        {
+            "type": "virtual",
+            "month": "NOV",
+            "day": "5",
+            "title": "Meet the GitHub Copilot App",
+            "time": "12:OO PM UK",
+            "description": "The unified interface for the agentic era.",
+            "link": "https://github.registration.goldcast.io/events/57a5b48d-14eb-41f4-be99-d560d339cab1"
+        },
+        {
+            "type": "virtual",
+            "month": "NOV",
+            "day": "18",
+            "title": "Orchestrating Agentic Workflows",
+            "time": "12:OO PM UK",
+            "description": "See how GitHub enables fully agentic, multi-step software delivery.",
+            "link": "https://github.registration.goldcast.io/events/231e0581-a0c4-4393-bb6c-3224387c581e"
+        },
+        {
+            "type": "virtual",
+            "month": "DEC",
+            "day": "3",
+            "title": "Trust What You Ship",
+            "time": "12:OO PM UK",
+            "description": "Governance, Security & Code Quality in the Agentic Era",
+            "link": "https://github.registration.goldcast.io/events/4a1422fd-55ef-4d4f-924b-b83d6437ed9b"
+        },
+        {
+            "type": "virtual",
+            "month": "DEC",
+            "day": "15",
+            "title": "Proving the ROI of Al-Powered Engineering",
+            "time": "12:OO PM UK",
+            "description": "Measuring what matters.",
+            "link": "https://github.registration.goldcast.io/events/62e69e6d-db48-4796-a85e-0fff74bd7ab4"
         }
     ]
 }
