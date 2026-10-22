@@ -29,11 +29,12 @@
         "properties": {
           "type": {
             "type": "string",
-            "description": "Event type: in-person, virtual, or partner",
+            "description": "Event type: in-person, conference, virtual, online-lab (On-line Labs), partner, or ukdevse",
             "enum": [
               "in-person",
               "conference",
               "virtual",
+              "online-lab",
               "partner",
               "ukdevse"
             ]

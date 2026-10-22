@@ -86,6 +86,51 @@
             "time": "12:OO PM UK",
             "description": "Measuring what matters.",
             "link": "https://github.registration.goldcast.io/events/62e69e6d-db48-4796-a85e-0fff74bd7ab4"
+        },
+        {
+            "type": "online-lab",
+            "month": "NOV",
+            "day": "3",
+            "title": "GitHub Copilot Hands-on Lab",
+            "time": "9:00 AM - 1:00 PM UK",
+            "description": "Advanced exercises across the SDLC",
+            "link": "https://msevents.microsoft.com/event?id=2637893916"
+        },
+        {
+            "type": "online-lab",
+            "month": "NOV",
+            "day": "10",
+            "title": "GitHub Copilot Hands-on Lab",
+            "time": "9:00 AM - 1:00 PM UK",
+            "description": "Advanced exercises across the SDLC",
+            "link": "https://msevents.microsoft.com/event?id=1172916429"
+        },
+        {
+            "type": "online-lab",
+            "month": "DEC",
+            "day": "1",
+            "title": "GitHub Copilot Hands-on Lab",
+            "time": "9:00 AM - 1:00 PM UK",
+            "description": "Advanced exercises across the SDLC",
+            "link": "https://msevents.microsoft.com/event?id=3478325169"
+        },
+        {
+            "type": "online-lab",
+            "month": "DEC",
+            "day": "10",
+            "title": "GitHub Copilot Hands-on Lab",
+            "time": "9:00 AM - 1:00 PM UK",
+            "description": "Advanced exercises across the SDLC",
+            "link": "https://msevents.microsoft.com/event?id=2929165418"
+        },
+        {
+            "type": "online-lab",
+            "month": "DEC",
+            "day": "15",
+            "title": "GitHub Copilot Hands-on Lab",
+            "time": "9:00 AM - 1:00 PM UK",
+            "description": "Advanced exercises across the SDLC",
+            "link": "https://msevents.microsoft.com/event?id=2515205306"
         }
     ]
 }

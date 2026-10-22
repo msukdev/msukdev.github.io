@@ -52,6 +52,9 @@
         <h2>Virtual events</h2>
         <div id="virtual-events"></div>
 
+        <h2>On-line Labs</h2>
+        <div id="online-lab-events"></div>
+
         <h2>Partner events</h2>
         <div id="partner-events"></div>
       </section>
@@ -99,6 +102,15 @@
           );
           virtualEvents.forEach((event) => {
             virtualContainer.appendChild(createEventCard(event));
+          });
+
+          // Filter and render on-line labs
+          const onlineLabContainer = document.getElementById("online-lab-events");
+          const onlineLabEvents = data.events.filter(
+            (event) => event.type === "online-lab",
+          );
+          onlineLabEvents.forEach((event) => {
+            onlineLabContainer.appendChild(createEventCard(event));
           });
 
           // Filter and render partner events
