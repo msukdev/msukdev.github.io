@@ -264,6 +264,10 @@ footer {
     text-decoration: underline;
 }
 
+.breadcrumb + .container {
+    padding-top: 8px;
+}
+
 /* Events List */
 .events-list {
     display: flex;

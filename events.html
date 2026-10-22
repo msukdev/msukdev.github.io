@@ -19,6 +19,23 @@
     <nav class="breadcrumb"><a href="index.html">Home</a> / Events</nav>
 
     <main class="container">
+      <section class="events-list">
+        <h2>In-person events</h2>
+        <div id="in-person-events"></div>
+
+        <h2>Conferences</h2>
+        <div id="conference-events"></div>
+
+        <h2>Virtual events</h2>
+        <div id="virtual-events"></div>
+
+        <h2>On-line Labs</h2>
+        <div id="online-lab-events"></div>
+
+        <!-- <h2>Partner events</h2>
+        <div id="partner-events"></div> -->
+      </section>
+
       <section class="series-section">
         <h2>Event Series</h2>
         <div class="series-grid">
@@ -37,26 +54,6 @@
             >
           </div>
         </div>
-      </section>
-
-      <section class="events-list">
-        <!-- <h2>UK DevSE events</h2>
-        <div id="ukdevse-events"></div>
-         -->
-        <h2>In-person events</h2>
-        <div id="in-person-events"></div>
-
-        <h2>Conferences</h2>
-        <div id="conference-events"></div>
-
-        <h2>Virtual events</h2>
-        <div id="virtual-events"></div>
-
-        <h2>On-line Labs</h2>
-        <div id="online-lab-events"></div>
-
-        <h2>Partner events</h2>
-        <div id="partner-events"></div>
       </section>
     </main>
 
@@ -105,7 +102,8 @@
           });
 
           // Filter and render on-line labs
-          const onlineLabContainer = document.getElementById("online-lab-events");
+          const onlineLabContainer =
+            document.getElementById("online-lab-events");
           const onlineLabEvents = data.events.filter(
             (event) => event.type === "online-lab",
           );
