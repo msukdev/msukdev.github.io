@@ -3,26 +3,6 @@
     "events": [
         {
             "type": "in-person",
-            "month": "OCT",
-            "day": "27",
-            "title": "Hackathon - Agentic SDLC",
-            "location": "London",
-            "time": "9:00 AM — 4:30 PM UK",
-            "description": "Applying agentic AI across the software development lifecycle",
-            "link": "https://msevents.microsoft.com/event?id=2284730737"
-        },
-        {
-            "type": "in-person",
-            "month": "NOV",
-            "day": "3",
-            "title": "Hypervelocity Engineering & FinOps",
-            "location": "London",
-            "time": "9:00 AM — 3:00 PM UK",
-            "description": " ",
-            "link": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-BtWKr2-0NKnpo3Z-8obiJUNkVDWkhSRVpFUThPVEhXSUhMUDdGWk9OUS4u"
-        },
-        {
-            "type": "in-person",
             "month": "NOV",
             "day": "9",
             "title": "Frontier Financial Services",
@@ -42,16 +22,6 @@
             "link": "https://github.registration.goldcast.io/events/5350e059-cd62-4980-96ea-3a957b981344"
         },
         {
-            "type": "conference",
-            "month": "OCT",
-            "day": "28<br/>29",
-            "title": "GitHub Universe 2026",
-            "location": "San Francisco & Online",
-            "time": "early til late",
-            "description": "Developer conference",
-            "link": "https://githubuniverse.com/"
-        },
-        {
             "type": "virtual",
             "month": "NOV",
             "day": "5",
@@ -59,6 +29,24 @@
             "time": "12:OO PM UK",
             "description": "The unified interface for the agentic era.",
             "link": "https://github.registration.goldcast.io/events/57a5b48d-14eb-41f4-be99-d560d339cab1"
+        },
+        {
+            "type": "virtual",
+            "month": "NOV",
+            "day": "11",
+            "title": "GitHub Universe: Recap",
+            "time": "10:00 AM BST",
+            "description": "Back to School bonus session covering the latest GitHub Platform and Copilot announcements from Universe.",
+            "link": "https://msit.events.teams.microsoft.com/event/msit.5b3b32f2-4a57-4bc2-8f6c-752964f21fe2@72f988bf-86f1-41af-91ab-2d7cd011db47"
+        },
+        {
+            "type": "virtual",
+            "month": "NOV",
+            "day": "11",
+            "title": "GitHub Universe: Recap",
+            "time": "4:00 PM BST",
+            "description": "Back to School bonus session covering the latest GitHub Platform and Copilot announcements from Universe.",
+            "link": "https://msit.events.teams.microsoft.com/event/msit.2bafa52b-144e-4ad5-bbc5-8587db0a1df8@72f988bf-86f1-41af-91ab-2d7cd011db47"
         },
         {
             "type": "virtual",
@@ -86,15 +74,6 @@
             "time": "12:OO PM UK",
             "description": "Measuring what matters.",
             "link": "https://github.registration.goldcast.io/events/62e69e6d-db48-4796-a85e-0fff74bd7ab4"
-        },
-        {
-            "type": "online-lab",
-            "month": "NOV",
-            "day": "3",
-            "title": "GitHub Copilot Hands-on Lab",
-            "time": "9:00 AM - 1:00 PM UK",
-            "description": "Advanced exercises across the SDLC",
-            "link": "https://msevents.microsoft.com/event?id=2637893916"
         },
         {
             "type": "online-lab",
