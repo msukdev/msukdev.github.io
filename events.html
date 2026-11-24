@@ -52,7 +52,7 @@
             >
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#in-person">
+            <a class="button button-primary" href="#series">
               Browse events <span aria-hidden="true">&darr;</span>
             </a>
             <a
@@ -65,19 +65,50 @@
         </div>
       </section>
 
-      <div class="category-bar">
-        <nav class="wrap category-nav" aria-label="Event categories">
-          <span class="category-label">Jump to</span>
-          <a href="#in-person">In-person</a>
-          <a href="#conferences">Conferences</a>
-          <a href="#virtual">Virtual</a>
-          <a href="#labs">Labs</a>
-          <a href="#partners">Partners</a>
-          <a href="#series">Event series</a>
-        </nav>
-      </div>
-
       <div class="wrap events-content">
+        <section
+          class="event-section"
+          id="series"
+          aria-labelledby="series-title"
+        >
+          <div class="event-section-heading">
+            <div>
+              <h2 id="series-title">Event Series</h2>
+            </div>
+          </div>
+          <div class="series-card">
+            <span class="icon-tile icon-purple" aria-hidden="true">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="m12 3 1.7 5.3L19 10l-5.3 1.7L12 17l-1.7-5.3L5 10l5.3-1.7L12 3ZM19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8L19 15Z"
+                ></path>
+              </svg>
+            </span>
+            <div class="series-info">
+              <h3>Devember 2026: 25 Days of Developer Discovery</h3>
+              <p>
+                Unwrap daily tech insights, expert sessions, and hands-on
+                learning.
+              </p>
+            </div>
+            <a
+              href="https://aka.ms/devember"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button-outline"
+            >
+              More Info <span aria-hidden="true">&nearr;</span>
+            </a>
+          </div>
+        </section>
+
         <section
           class="event-section"
           id="in-person"
@@ -139,45 +170,6 @@
           <div id="conference-events" class="event-grid"></div>
         </section>
 
-        <section
-          class="event-section"
-          id="series"
-          aria-labelledby="series-title"
-        >
-          <div class="event-section-heading">
-            <div>
-              <h2 id="series-title">Event Series</h2>
-            </div>
-          </div>
-          <div class="series-card">
-            <span class="icon-tile icon-purple" aria-hidden="true">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.7"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path
-                  d="m12 3 1.7 5.3L19 10l-5.3 1.7L12 17l-1.7-5.3L5 10l5.3-1.7L12 3ZM19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8L19 15Z"
-                ></path>
-              </svg>
-            </span>
-            <div class="series-info">
-              <h3>UK DevSE Series</h3>
-              <p>Tuesday lunch-byte sessions</p>
-            </div>
-            <a
-              href="https://wonderful-water-0902a6703.1.azurestaticapps.net/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="button button-outline"
-            >
-              More Info <span aria-hidden="true">&nearr;</span>
-            </a>
-          </div>
-        </section>
       </div>
     </main>
 
@@ -281,14 +273,9 @@
               container.appendChild(createEventCard(event));
             });
 
-            // Hide empty categories and their jump links
+            // Hide empty categories
             const isEmpty = events.length === 0;
             section.hidden = isEmpty;
-            document
-              .querySelectorAll(`.category-nav a[href="#${section.id}"]`)
-              .forEach((link) => {
-                link.hidden = isEmpty;
-              });
           });
         } catch (error) {
           console.error("Error loading events:", error);
