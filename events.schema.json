@@ -19,6 +19,7 @@
         "type": "object",
         "required": [
           "type",
+          "year",
           "month",
           "day",
           "title",
@@ -29,14 +30,23 @@
         "properties": {
           "type": {
             "type": "string",
-            "description": "Event type: in-person, conference, virtual, online-lab (On-line Labs), partner, or ukdevse",
+            "description": "Event type: in-person, conference, virtual,             online-lab (On-line Labs), or partner",
             "enum": [
               "in-person",
               "conference",
               "virtual",
               "online-lab",
-              "partner",
-              "ukdevse"
+                          "partner"
+            ]
+          },
+          "year": {
+            "type": "integer",
+            "description": "Calendar year of the event, used to hide past events",
+            "minimum": 1000,
+            "maximum": 9999,
+            "examples": [
+              2026,
+              2027
             ]
           },
           "month": {
@@ -60,7 +70,7 @@
           },
           "day": {
             "type": "string",
-            "description": "Day of month (1-31) or multi-day format like '25<br />26' for consecutive days",
+            "description": "Day of month (1-31) or multi-day format like '25<br />26' within the same month and year. Events remain visible through the last listed day.",
             "examples": [
               "1",
               "15",

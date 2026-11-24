@@ -1,46 +1,169 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore UK DevSE events, conferences, virtual sessions and hands-on labs."
+    />
     <title>Events - UK Developer Solutions Engineering</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero hero-small">
-      <div class="hero-content">
-        <h1>Events</h1>
-        <p class="tagline">
-          Upcoming sessions and workshops - <u>https://aka.ms/ukdev-events</u>
-        </p>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="UK Developer Solutions Engineering home"
+        >
+          <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+          <span class="brand-name">UK DevSE</span>
+          <span class="brand-description">Developer Solutions Engineering</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="events.html" aria-current="page">Events</a>
+          <a class="nav-contact" href="mailto:ukdevse@microsoft.com">Contact</a>
+        </nav>
       </div>
     </header>
 
-    <nav class="breadcrumb"><a href="index.html">Home</a> / Events</nav>
-
-    <main class="container">
-      <section class="events-list">
-        <h2>In-person events</h2>
-        <div id="in-person-events"></div>
-
-        <h2>Conferences</h2>
-        <div id="conference-events"></div>
-
-        <h2>Virtual events</h2>
-        <div id="virtual-events"></div>
-
-        <h2>On-line Labs</h2>
-        <div id="online-lab-events"></div>
-
-        <!-- <h2>Partner events</h2>
-        <div id="partner-events"></div> -->
+    <main id="main-content">
+      <section class="hero hero-page" aria-labelledby="events-title">
+        <div class="wrap">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Home</a>
+            <span aria-hidden="true">/</span>
+            <span aria-current="page">Events</span>
+          </nav>
+          <p class="hero-label">
+            <span class="status-dot" aria-hidden="true"></span>
+            UK DevSE
+          </p>
+          <h1 id="events-title"><span class="gradient-text">Events</span></h1>
+          <p class="hero-lede">
+            Upcoming sessions and workshops -
+            <a href="https://aka.ms/ukdev-events"
+              >https://aka.ms/ukdev-events</a
+            >
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#in-person">
+              Browse events <span aria-hidden="true">&darr;</span>
+            </a>
+            <a
+              class="button button-outline"
+              href="mailto:ukdevse@microsoft.com"
+            >
+              Contact
+            </a>
+          </div>
+        </div>
       </section>
 
-      <section class="series-section">
-        <h2>Event Series</h2>
-        <div class="series-grid">
+      <div class="category-bar">
+        <nav class="wrap category-nav" aria-label="Event categories">
+          <span class="category-label">Jump to</span>
+          <a href="#in-person">In-person</a>
+          <a href="#conferences">Conferences</a>
+          <a href="#virtual">Virtual</a>
+          <a href="#labs">Labs</a>
+          <a href="#partners">Partners</a>
+          <a href="#series">Event series</a>
+        </nav>
+      </div>
+
+      <div class="wrap events-content">
+        <section
+          class="event-section"
+          id="in-person"
+          aria-labelledby="in-person-title"
+        >
+          <div class="event-section-heading">
+            <div>
+              <h2 id="in-person-title">In-person events</h2>
+            </div>
+          </div>
+          <div id="in-person-events" class="event-grid"></div>
+        </section>
+
+        <section
+          class="event-section"
+          id="virtual"
+          aria-labelledby="virtual-title"
+        >
+          <div class="event-section-heading">
+            <div>
+              <h2 id="virtual-title">Virtual events</h2>
+            </div>
+          </div>
+          <div id="virtual-events" class="event-grid"></div>
+        </section>
+
+        <section class="event-section" id="labs" aria-labelledby="labs-title">
+          <div class="event-section-heading">
+            <div>
+              <h2 id="labs-title">On-line Labs</h2>
+            </div>
+          </div>
+          <div id="online-lab-events" class="event-grid"></div>
+        </section>
+
+        <section
+          class="event-section"
+          id="partners"
+          aria-labelledby="partners-title"
+        >
+          <div class="event-section-heading">
+            <div>
+              <h2 id="partners-title">Partner events</h2>
+            </div>
+          </div>
+          <div id="partner-events" class="event-grid"></div>
+        </section>
+
+        <section
+          class="event-section"
+          id="conferences"
+          aria-labelledby="conferences-title"
+        >
+          <div class="event-section-heading">
+            <div>
+              <h2 id="conferences-title">Conferences</h2>
+            </div>
+          </div>
+          <div id="conference-events" class="event-grid"></div>
+        </section>
+
+        <section
+          class="event-section"
+          id="series"
+          aria-labelledby="series-title"
+        >
+          <div class="event-section-heading">
+            <div>
+              <h2 id="series-title">Event Series</h2>
+            </div>
+          </div>
           <div class="series-card">
-            <div class="series-icon">✨</div>
+            <span class="icon-tile icon-purple" aria-hidden="true">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="m12 3 1.7 5.3L19 10l-5.3 1.7L12 17l-1.7-5.3L5 10l5.3-1.7L12 3ZM19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8L19 15Z"
+                ></path>
+              </svg>
+            </span>
             <div class="series-info">
               <h3>UK DevSE Series</h3>
               <p>Tuesday lunch-byte sessions</p>
@@ -49,75 +172,123 @@
               href="https://wonderful-water-0902a6703.1.azurestaticapps.net/"
               target="_blank"
               rel="noopener noreferrer"
-              class="event-link"
-              >More Info</a
+              class="button button-outline"
             >
+              More Info <span aria-hidden="true">&nearr;</span>
+            </a>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
 
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>&copy; 2026 UK Developer Solutions Engineering</p>
+        <nav aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="mailto:ukdevse@microsoft.com">Contact</a>
+        </nav>
+      </div>
+    </footer>
+
     <script>
+      function getTodayDate(now = new Date()) {
+        const parts = Object.fromEntries(
+          new Intl.DateTimeFormat("en-GB", {
+            timeZone: "Europe/London",
+            year: "numeric",
+            month: "numeric",
+            day: "numeric",
+          })
+            .formatToParts(now)
+            .map((part) => [part.type, part.value]),
+        );
+        return Date.UTC(
+          Number(parts.year),
+          Number(parts.month) - 1,
+          Number(parts.day),
+        );
+      }
+
+      function getEventEndDate(event) {
+        const months = [
+          "JAN",
+          "FEB",
+          "MAR",
+          "APR",
+          "MAY",
+          "JUN",
+          "JUL",
+          "AUG",
+          "SEP",
+          "OCT",
+          "NOV",
+          "DEC",
+        ];
+        const month = months.indexOf(event.month);
+        if (
+          !Number.isInteger(event.year) ||
+          event.year < 1000 ||
+          event.year > 9999 ||
+          month === -1 ||
+          typeof event.day !== "string"
+        ) {
+          throw new Error(`Invalid date for event: ${event.title}`);
+        }
+
+        const dates = event.day.split(/<br\s*\/?>/i).map((value) => {
+          const day = Number(value.trim());
+          const date = new Date(Date.UTC(event.year, month, day));
+          if (
+            !/^\d{1,2}$/.test(value.trim()) ||
+            date.getUTCFullYear() !== event.year ||
+            date.getUTCMonth() !== month ||
+            date.getUTCDate() !== day
+          ) {
+            throw new Error(`Invalid date for event: ${event.title}`);
+          }
+          return date.getTime();
+        });
+        return Math.max(...dates);
+      }
+
       // Load and render events from JSON
       async function loadEvents() {
         try {
           const response = await fetch("events.json");
           const data = await response.json();
-
-          // filter and render UK DevSE events
-          const ukDevSEContainer = document.getElementById("ukdevse-events");
-          const ukDevSEEvents = data.events.filter(
-            (event) => event.type === "ukdevse",
+          const today = getTodayDate();
+          const upcomingEvents = data.events.filter(
+            (event) => getEventEndDate(event) >= today,
           );
-          ukDevSEEvents.forEach((event) => {
-            ukDevSEContainer.appendChild(createEventCard(event));
-          });
 
-          // Filter and render in-person events
-          const inPersonContainer = document.getElementById("in-person-events");
-          const inPersonEvents = data.events.filter(
-            (event) => event.type === "in-person",
-          );
-          inPersonEvents.forEach((event) => {
-            inPersonContainer.appendChild(createEventCard(event));
-          });
+          const containersByType = {
+            "in-person": "in-person-events",
+            conference: "conference-events",
+            virtual: "virtual-events",
+            "online-lab": "online-lab-events",
+            partner: "partner-events",
+          };
 
-          // Filter and render conference events
-          const conferenceContainer =
-            document.getElementById("conference-events");
-          const conferenceEvents = data.events.filter(
-            (event) => event.type === "conference",
-          );
-          conferenceEvents.forEach((event) => {
-            conferenceContainer.appendChild(createEventCard(event));
-          });
+          Object.entries(containersByType).forEach(([type, containerId]) => {
+            const container = document.getElementById(containerId);
+            const section = container.closest(".event-section");
+            const events = upcomingEvents.filter(
+              (event) => event.type === type,
+            );
 
-          // Filter and render virtual events
-          const virtualContainer = document.getElementById("virtual-events");
-          const virtualEvents = data.events.filter(
-            (event) => event.type === "virtual",
-          );
-          virtualEvents.forEach((event) => {
-            virtualContainer.appendChild(createEventCard(event));
-          });
+            events.forEach((event) => {
+              container.appendChild(createEventCard(event));
+            });
 
-          // Filter and render on-line labs
-          const onlineLabContainer =
-            document.getElementById("online-lab-events");
-          const onlineLabEvents = data.events.filter(
-            (event) => event.type === "online-lab",
-          );
-          onlineLabEvents.forEach((event) => {
-            onlineLabContainer.appendChild(createEventCard(event));
-          });
-
-          // Filter and render partner events
-          const partnerContainer = document.getElementById("partner-events");
-          const partnerEvents = data.events.filter(
-            (event) => event.type === "partner",
-          );
-          partnerEvents.forEach((event) => {
-            partnerContainer.appendChild(createEventCard(event));
+            // Hide empty categories and their jump links
+            const isEmpty = events.length === 0;
+            section.hidden = isEmpty;
+            document
+              .querySelectorAll(`.category-nav a[href="#${section.id}"]`)
+              .forEach((link) => {
+                link.hidden = isEmpty;
+              });
           });
         } catch (error) {
           console.error("Error loading events:", error);
@@ -126,7 +297,7 @@
 
       // Create an event card element
       function createEventCard(event) {
-        const card = document.createElement("div");
+        const card = document.createElement("article");
         card.className = "event-card";
 
         card.innerHTML = `
@@ -136,10 +307,30 @@
           </div>
           <div class="event-details">
             <h3>${event.title}</h3>
-            <p class="event-time">🕐 ${event.time}</p>
-            ${event.location ? `<p class="event-location">📍 ${event.location}</p>` : ""}
+            <p class="event-meta">
+              <svg aria-hidden="true" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="8" cy="8" r="6"></circle>
+                <path d="M8 4.5V8l2.5 1.5"></path>
+              </svg>
+              <span>${event.time}</span>
+            </p>
+            ${
+              event.location
+                ? `
+              <p class="event-meta">
+                <svg aria-hidden="true" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12.5 6.5c0 3-4.5 7-4.5 7s-4.5-4-4.5-7a4.5 4.5 0 0 1 9 0Z"></path>
+                  <circle cx="8" cy="6.5" r="1.5"></circle>
+                </svg>
+                <span>${event.location}</span>
+              </p>
+            `
+                : ""
+            }
             <p class="event-desc">${event.description}</p>
-            <a href="${event.link}" target="_blank" class="event-link">More Info</a>
+            <a href="${event.link}" target="_blank" rel="noopener noreferrer" class="event-link">
+              More Info <span aria-hidden="true">&nearr;</span>
+            </a>
           </div>
         `;
 
@@ -149,9 +340,5 @@
       // Load events when page loads
       loadEvents();
     </script>
-
-    <footer>
-      <p>&copy; 2026 UK Developer Solutions Engineering</p>
-    </footer>
   </body>
 </html>

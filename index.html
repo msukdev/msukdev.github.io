@@ -1,39 +1,125 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover events, workshops and ways to connect with UK Developer Solutions Engineering."
+    />
     <title>UK Developer Solutions Engineering</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
-      <div class="hero-content">
-        <h1>UK Developer</h1>
-        <h2>Solutions Engineering</h2>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="UK Developer Solutions Engineering home"
+        >
+          <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+          <span class="brand-name">UK DevSE</span>
+          <span class="brand-description">Developer Solutions Engineering</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="events.html">Events</a>
+          <a class="nav-contact" href="mailto:ukdevse@microsoft.com">Contact</a>
+        </nav>
       </div>
     </header>
 
-    <main class="container">
-      <section class="links-section">
-        <div class="links-grid">
-          <a href="events.html" class="link-card">
-            <div class="card-icon">📅</div>
-            <h3>Events</h3>
-            <p>Upcoming sessions and workshops</p>
-          </a>
+    <main id="main-content">
+      <section class="hero hero-home" aria-labelledby="home-title">
+        <div class="wrap hero-layout">
+          <div class="hero-content">
+            <p class="hero-label">
+              <span class="status-dot" aria-hidden="true"></span>
+              UK DevSE
+            </p>
+            <h1 id="home-title">
+              UK Developer
+              <span class="gradient-text">Solutions Engineering</span>
+            </h1>
+            <p class="hero-lede">Upcoming sessions and workshops</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="events.html">
+                Explore events <span aria-hidden="true">&rarr;</span>
+              </a>
+              <a class="button button-outline" href="mailto:ukdevse@microsoft.com">
+                Get in touch
+              </a>
+            </div>
+          </div>
 
-          <a href="mailto:ukdevse@microsoft.com" class="link-card">
-            <div class="card-icon">📧</div>
-            <h3>UK DevSE Contact</h3>
-            <p>Email: ukdevse@microsoft.com</p>
-          </a>
+          <div class="hero-art" aria-hidden="true">
+            <div class="art-card">
+              <div class="art-bar">
+                <span class="art-dots"><i></i><i></i><i></i></span>
+                <span>ukdevse / connect</span>
+                <span class="art-bar-dot"></span>
+              </div>
+              <div class="art-body">
+                <div class="art-icon">&lt;/&gt;</div>
+                <p class="art-kicker">UK DEVSE</p>
+                <p class="art-title">Upcoming sessions and workshops</p>
+                <div class="art-tags">
+                  <span>Events</span>
+                  <span>UK DevSE Contact</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="discover-section" aria-labelledby="discover-title">
+        <div class="wrap">
+          <div class="section-intro">
+            <p class="section-eyebrow">UK DevSE</p>
+            <h2 id="discover-title">Events and contact</h2>
+          </div>
+
+          <div class="links-grid">
+            <a href="events.html" class="link-card">
+              <span class="icon-tile icon-green" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="5" width="18" height="16" rx="2"></rect>
+                  <path d="M7 3v4M17 3v4M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 17h.01M12 17h.01"></path>
+                </svg>
+              </span>
+              <h3>Events</h3>
+              <p>Upcoming sessions and workshops</p>
+              <span class="card-action">Explore events <span aria-hidden="true">&rarr;</span></span>
+            </a>
+
+            <a href="mailto:ukdevse@microsoft.com" class="link-card">
+              <span class="icon-tile icon-purple" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                  <path d="m4 7 8 6 8-6"></path>
+                </svg>
+              </span>
+              <h3>UK DevSE Contact</h3>
+              <p>Email: ukdevse@microsoft.com</p>
+              <span class="card-action">Get in touch <span aria-hidden="true">&rarr;</span></span>
+            </a>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer>
-      <p>&copy; 2026 UK Developer Solutions Engineering</p>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>&copy; 2026 UK Developer Solutions Engineering</p>
+        <nav aria-label="Footer navigation">
+          <a href="events.html">Events</a>
+          <a href="mailto:ukdevse@microsoft.com">Contact</a>
+        </nav>
+      </div>
     </footer>
   </body>
 </html>
